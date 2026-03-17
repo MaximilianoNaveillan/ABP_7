@@ -12,6 +12,7 @@ Cada alumno debe crear su propia subcarpeta aquí con el formato `nombre-apellid
     │   ├── leccion3/
     │   ├── leccion4/
     │   ├── leccion5/
+    │   ├── ABP_7/
     │   └── README.md
     └── juan-perez/
         └── ...
