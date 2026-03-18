@@ -10,21 +10,21 @@ const productosEjemplo = ref([
     title: "Laptop Gaming Pro",
     price: 1299.99,
     category: "electronics",
-    image: "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
   },
   {
     id: 2,
     title: "Auriculares Inalámbricos",
     price: 89.99,
     category: "electronics",
-    image: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
   },
   {
     id: 3,
     title: "Smartwatch Sport",
     price: 199.99,
     category: "electronics",
-    image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_FMwebp_QL65_.jpg",
+    image: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
   },
 ]);
 
