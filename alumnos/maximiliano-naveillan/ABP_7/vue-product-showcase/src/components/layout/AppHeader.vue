@@ -1,6 +1,7 @@
 <script setup>
 // Sin lógica por ahora
 </script>
+
 <!-- src/components/layout/AppHeader.vue -->
 <template>
   <header class="app-header">
