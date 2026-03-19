@@ -1,11 +1,11 @@
 <!-- src/components/layout/AppFooter.vue -->
 <script setup>
-const año = new Date().getFullYear();
+const anio = new Date().getFullYear();
 </script>
 
 <template>
   <footer class="app-footer">
-    <p>© {{ año }} Vue Product Showcase — Bootcamp Módulo 7</p>
+    <p>© {{ anio }} Vue Product Showcase — Bootcamp Módulo 7</p>
   </footer>
 </template>
 

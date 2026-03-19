@@ -11,6 +11,7 @@ const props = defineProps({
 // Definición de emits
 const emit = defineEmits(["agregar"]);
 </script>
+
 <template>
   <div class="product-card" data-cy="product-card">
     <img :src="producto.image" :alt="producto.title" class="product-image" />
