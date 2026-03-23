@@ -46,7 +46,12 @@ onDeactivated(() => {
     <input v-model="busqueda" placeholder="Buscar Productos..." />
 
     <ul>
-      <li v-for="p in productosFiltrados" :key="p.id">{{ p.nombre }}</li>
+      <li v-for="item in productosFiltrados" :key="item.id">
+        {{ item.nombre }}
+        <span>
+          <router-link :to="'/producto/' + item.id">ver detalle</router-link>
+        </span>
+      </li>
     </ul>
 
     <p style="color: grey; font-size: 12px">
