@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 
-defineOptions({ name: 'FiltroPanel' });
+defineOptions({ name: 'FiltrosPanel' });
 
 const soloDisponibles = ref(false);
 const precioMax = ref(2500);

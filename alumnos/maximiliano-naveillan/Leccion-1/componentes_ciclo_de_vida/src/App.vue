@@ -3,6 +3,7 @@ import { ref } from 'vue';
 import MyLayout from './layout/MyLayout.vue';
 import ProductList from './components/ProductList.vue';
 import FiltrosPanel from './components/FiltrosPanel.vue';
+import DemoAsyncComponent from './components/DemoAsyncComponent.vue';
 
 const tabActual = ref('ProductList');
 
@@ -10,13 +11,14 @@ const tabs = {
   ProductList,
   FiltrosPanel,
 };
+// console.log(tabs["ProductList"])
 </script>
 
 <template>
   <MyLayout>
     <template #header>
       <router-link to="/">Inicio</router-link>
-      <router-link to="producto/1">Producto</router-link>
+      <router-link to="/producto/2">Producto</router-link>
     </template>
 
     <hr />
@@ -32,6 +34,7 @@ const tabs = {
     <hr />
 
     <router-view />
+    <DemoAsyncComponent />
 
     <template #footer>@ 2026</template>
   </MyLayout>
