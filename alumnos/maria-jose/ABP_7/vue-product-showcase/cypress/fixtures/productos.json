@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop Gaming Pro",
+    "price": 1299.99,
+    "category": "electronics",
+    "image": "https://via.placeholder.com/200",
+    "description": "Laptop de alta gama para gaming"
+  },
+  {
+    "id": 2,
+    "title": "Camiseta Casual",
+    "price": 29.99,
+    "category": "men's clothing",
+    "image": "https://via.placeholder.com/200",
+    "description": "Camiseta cómoda de algodón"
+  }
+]

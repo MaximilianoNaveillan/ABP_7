@@ -10,7 +10,7 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(['agregar']);
+const emit = defineEmits(['agregar, agregarFavorito']);
 
 // 🔑 Ciclo de vida: mounted
 onMounted(() => {
@@ -19,6 +19,10 @@ onMounted(() => {
 
 function manejarAgregar(producto) {
   emit('agregar', producto);
+}
+
+function manejarAgregarFavorito(producto) {
+  emit('agregarFavorito', producto);
 }
 </script>
 
@@ -30,6 +34,7 @@ function manejarAgregar(producto) {
         :key="producto.id"
         :producto="producto"
         @agregar="manejarAgregar"
+        @agregarFavorito="manejarAgregarFavorito"
       />
     </div>
   </section>

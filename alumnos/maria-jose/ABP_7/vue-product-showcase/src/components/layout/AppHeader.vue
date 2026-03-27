@@ -1,5 +1,7 @@
 <script setup>
-// Sin lógica por ahora
+import { useFavoritosStore } from '@/stores/favoritos';
+
+const favoritosStore = useFavoritosStore();
 </script>
 
 <!-- src/components/layout/AppHeader.vue -->
@@ -9,6 +11,7 @@
       <h1>🛍️ Vue Product Showcase</h1>
       <nav>
         <RouterLink to="/">Inicio</RouterLink>
+        <span v-if="favoritosStore.total > 0">💖 Favoritos <span>{{ favoritosStore.total }}</span></span>
       </nav>
     </div>
   </header>
